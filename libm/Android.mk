@@ -1,4 +1,5 @@
 LOCAL_PATH:= $(call my-dir)
+LOCAL_CFLAGS:= -fno-strict-aliasing
 
 libm_common_src_files:= \
 	isinf.c  \
