@@ -1,5 +1,5 @@
 LOCAL_PATH:= $(call my-dir)
-LOCAL_CFLAGS:= -fno-strict-aliasing
+LOCAL_CFLAGS:= -O3 -g -fno-strict-aliasing
 include $(LOCAL_PATH)/arch-$(TARGET_ARCH)/syscalls.mk
 
 # Define the common source files for all the libc instances
